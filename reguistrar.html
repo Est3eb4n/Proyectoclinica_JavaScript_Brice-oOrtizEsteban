@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sp">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +8,17 @@
 </head>
 <body>
   <section id="container">
-    <img src="images/logo.png" alt="" id="logo">
     <div id="xd">
       <h2>Registro</h2>
-      <form id="formulario"></form>
-        <input type="text" class="txt" id="cc" placeholder="No. Identificación">
-        <input type="text" class="txt" id="nombre" placeholder="Nombre">
-        <input type="text" class="txt" id="apellido" placeholder="Apellido">
-        <input type="text" class="txt" id="correo" placeholder="E-mail">
-        <input type="text" class="txt" id="telefono" placeholder="Télefono">
-        <input type="text" class="txt" id="clave" placeholder="clave">
-        <select class="txt" id="cargo">
-          <option  value="Ciudad">Cargo</option>
-          <option  value="Bogota">Administrativo</option>
-          <option  value="Medellin">Medico</option>
-          <option  value="Cali">Enfermero</option>
-        </select>
-        <button id="prin">GUARDAR</button>
+      <form id="formulario">
+        <input type="text" class="txt" name="cc" placeholder="Cédula">
+        <input type="text" class="txt" name="nombre" placeholder="Nombre">
+        <input type="text" class="txt" name="apellido" placeholder="Apellido">
+        <input type="email" class="txt" name="correo" placeholder="Correo">
+        <input type="text" class="txt" name="telefono" placeholder="Teléfono">
+        <input type="password" class="txt" name="clave" placeholder="Clave">
+        <input type="text" class="txt" name="cargo" placeholder="Cargo">
+        <button type="button" class="txt" id="prin">Guardar</button>
       </form>
     </div>
   </section>
